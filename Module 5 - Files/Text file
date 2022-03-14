@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main()
+{
+    FILE *fp;
+    char text [80];
+    int i;
+    fp=fopen("sample.txt","w");
+    printf ("Enter text");
+    gets (text);
+    fputs (text, fp);
+    if (fp!=NULL)
+    printf ("String copied into text file");
+    fclose (fp);
+}
