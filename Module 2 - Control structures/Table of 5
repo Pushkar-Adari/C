@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+	int a=5,b,n;
+	for (n=1;n<=20;n++);
+	{
+		b=a*n;
+		printf ("5 X %d = %d\n",n,b);
+	}
+}
